@@ -1,0 +1,195 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstraps</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b342acd520.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+
+      <header class="container-fluid m-0">
+        <div class="row">
+          <div class="col">
+            
+              <nav id="navbar-example2" class="navbar bg-body-$gray-300 px-3 mb-3">
+                  <a class="navbar-brand border-right pr-4" href="#"><i class="fa-brands fa-instagram px-1"></i>instagram</a>
+                  <ul class="nav nav-pills">
+                    
+                      <li class="nav-item">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          create new post
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <h5>caption</h5>
+                                <div class="input-group">
+                                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+                              </div>
+                              <div class=" col d-flex justify-content-start align-items-center mb-3 px-3">
+                                <button type="button" class="btn btn-light"><i class="fa-solid fa-camera-retro px-2"></i></button>
+                                <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot px-2"></i></button>
+                              </div>
+
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                   
+                    <!-- boton de submenus-->
+                    <div class="btn-group px-3">
+                      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-lg-end">
+                        <li><button class="dropdown-item" type="button">porfile</button></li>
+                        <li><button class="dropdown-item" type="button">about</button></li>
+                        <li><button class="dropdown-item " type="button">private</button></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#">log out</a></li>
+                      </ul>
+                    </div>
+                </nav>
+                <!-- nav tabs botones de pestanas--> 
+                <div class="container-1 d-flex justify-content-center">
+                  <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#seccion1" aria-current="page" href="#seccion1"><i class="fa-solid fa-table-cells"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#seccion2" href="#seccion2"><i class="fa-solid fa-square"></i></a>
+                      </li>
+                </div>
+        </header>
+                  <!-- post de imagenes 1-->
+                <div class="tab-content mt-2 p-0">
+                    <div class="tab-pane active show fade" id="seccion1">
+                        <div class="container text-center">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                              <div class="col-sm-12 col-md-4 col-lg-4 py-2">
+                                <img src="https://picsum.photos/350/300" alt="">
+                              </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <!--post de imagenes 2-->
+                </div>
+                <div class="tab-content">
+                  <div class="tab-pane show fade" id="seccion2">
+                      <div class="container">
+                          <div class="row">
+                            <div class="col row d-flex align-items-center justify-content-center">
+                              <div class="card py-3 mt-2" style="width: 35rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <h4 class="card-title py-3 px-3">son goku</h4>
+                                <p>16/02</p>
+                                </div>
+                                 <img src="https://picsum.photos/350/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text"><b>204 likes</b> people</p>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aperiam vero quod reiciendis eligendi ab doloremque.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col row d-flex align-items-center justify-content-center">
+                            <div class="card py-3 mt-2" style="width: 35rem;">
+                              <div class="d-flex align-items-center justify-content-between">
+                                <h4 class="card-title py-3 px-3">son goku</h4>
+                              <p>17/05</p>
+                              </div>
+                               <img src="https://picsum.photos/350/300" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text"><b>204 likes</b> people</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aperiam vero quod reiciendis eligendi ab doloremque.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col row d-flex align-items-center justify-content-center">
+                          <div class="card py-3 mt-2" style="width: 35rem;">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h4 class="card-title py-3 px-3">son gohan</h4>
+                            <p>16/02</p>
+                            </div>
+                             <img src="https://picsum.photos/350/300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"><b>185 likes</b> people</p>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aperiam vero quod reiciendis eligendi ab doloremque.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col row d-flex align-items-center justify-content-center">
+                        <div class="card py-3 mt-2" style="width: 35rem;">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h4 class="card-title py-3 px-3">principe vegeta</h4>
+                          <p>20/12</p>
+                          </div>
+                           <img src="https://picsum.photos/350/300" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text"><b>592 likes</b> people</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aperiam vero quod reiciendis eligendi ab doloremque.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                  
+                  </div>
+                </div>
+
+          
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
